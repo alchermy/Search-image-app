@@ -3,7 +3,7 @@ import React from 'react'
 function Picture({data}) {
   return (
     <div className='grid-box'>
-        <img src={data.urls.full} alt={data.description} />
+        <img src={data.urls.regular} alt={data.description} />
     </div>
   )
 }
