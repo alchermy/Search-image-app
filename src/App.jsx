@@ -38,7 +38,7 @@ function App() {
       setKeyword("");
     } else {
       setPhotos(result);
-      console.log(result);
+     
     }
   }
   return (
